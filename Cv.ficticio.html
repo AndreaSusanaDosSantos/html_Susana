@@ -1,0 +1,93 @@
+<!DOCTYPE HTML>
+<html>
+    <head><title>Curriculum Vitae</title></head>
+    <style>
+        #Presentación{
+            background-color: blanchedalmond;
+            margin-top: 25px;
+            margin-left: 10%;
+            padding-bottom:15px ;
+            margin-top: 10px;
+            width:80%;
+            height: 50%; 
+        }
+        #Identidad{ 
+                z-index: 10;/*indica el orden de un elemento posicionado y sus descendientes.*/
+                position: absolute;
+                color: black;
+                font-size: 18px;
+                font-weight: bold;
+                margin-left: 200PX;
+                top: 70px;    
+            }
+        #Imagen{
+            margin-left: 70px;
+            width:112px ;/*Alto de la foto, sacado de las propiedades*/
+            height:156px;/*Ancho de la foto, sacado de  las propiedades*/
+            border: solid 2px;
+            border-color: black;
+        }
+        legend {  
+	    border: solid 1px;	
+	    padding: 8px;
+	    font-weight: bold;
+	    border-radius: 100%;
+	    background: #CCC;
+	    }
+
+        fieldset {
+	    border: solid 2px;
+	    background:rgb(243, 236, 237);
+	    margin: 15px auto;
+	    width: 50%;
+        }
+        
+       
+    </style>
+    <body>
+       
+        <div id="Presentación">
+    
+            <h1 align= "Center"> Curriculum vitae</h1>
+            <div id= "Imagen">
+                <img src="Clara.jpg">
+                <div id="Identidad">
+                    <h3>
+                         <p>
+                             María Cecilia Reick
+                         </p>
+                        <p>
+                             Calle Pio XII N° 345
+                        </p>
+                        <p>
+                            mariacecilia@gmail.com
+                        </p>
+                    </h3> 
+                </div>
+             </div > 
+             <fieldset>
+                <legend align="left">Datos generales</legend>
+                    <li>Fecha de nacimiento: 16/12/00</li>
+                    <li>Cedula:001-1234567-8</li>
+                    <li> Nacionalidad: Argentina</li>
+                    <li>Estado civil: Soltera</li>
+            </fieldset>
+             <fieldset>
+                <legend align="left">Fomación académica</legend>
+                    <li>Estudios secundarios completo</li>
+                    <li>Cursando carrera terciaria</li>
+                    <li> Curso básico de computación </li>
+            </fieldset>
+             <fieldset>
+                <legend align="left">Experiencia Laboral</legend>
+                    <li>Atención comercial </li>
+                    <li>Secretaria </li>
+                    <li> Cajera de supermercados </li>
+            </fieldset>
+            
+        </div>
+    
+       
+    </body>
+    
+</html>

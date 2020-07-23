@@ -1,0 +1,114 @@
+<!DOCTYPE HTML>
+<html>
+    <style>
+        
+    h3{font-size: 1.5em; 
+        font-family: 'Times New Roman', Times, serif;
+        text-align: center;
+    }
+    #caja{
+            background-color: magenta;
+            margin-top:75px ;/* margrn de arriba */
+            width: 700px;/* ancho */
+            height: 300px;/* alto */
+            margin-left: 25%;/* margen izquierdo */
+            margin-right: 25%;/* margen derecho */
+            padding: 20px;/* relleno...contenido */
+            text-align: center;
+            color:rgb(15, 15, 15); /* color de letra para el texto */
+            border: solid 2px;
+            border-color: black;   
+    }
+   
+    #opcion{
+        background-color: silver;
+        margin-top:15px ;/* margen de arriba */
+        margin-bottom: 15px;/* margen de abajo */
+            width: 600px;
+            height: 150px;
+            margin-left: 25px;
+            margin-right: 75px;
+            padding: 20px;
+            color:floralwhite;
+            border: solid 2px;
+            border-color: slategrey;      
+    }
+    legend {  
+	border: solid 1px;	
+	padding: 5px;
+	font-weight: bold;
+	border-radius: 100%;
+	background: #CCC;
+	}
+
+    fieldset {
+	
+	border: solid 2px;
+	background:lightpink;
+	margin: 15px auto;
+	width: 50%;
+	
+    }
+    .personal{
+
+                background-color: white;
+                margin-top:15px ;/* margrn de arriba */
+                margin-bottom: 15px;/* margen de abajo */
+                 width: 200px;
+                 height: 10px;
+                 margin-left: 25%;
+                 margin-right: 25%;
+                padding: 10px;
+                text-align: justify;
+                color:rgb(15, 15, 15);
+                border: solid 2px;
+                border-color: rgb(15, 15, 15);
+    }
+    #Ingresar{
+        
+        font-weight:bold;
+	    margin: 0 auto auto 8em;
+        text-align:center;
+    }
+    #Diseños{
+        background-color:lightpink;
+        width: 200px;
+        height:20px ;
+        margin-top: 30px;
+        margin-left: 250px;
+        margin-right: 250px;
+        text-align: center;
+        border: solid 2px;
+        border-color: black;
+        color:rgb(15, 15, 15)   
+    }
+
+    </style>
+
+    <body><!-- es el CUERPO  -->
+    
+   
+    <div id="caja"> <!-- ESTO ES UNA CAJA O CUADRADO(CONTENEDOR) -->
+        <header> <!--Encabezado-->
+            <h1>
+                Ingresar al sistema
+            </h1>
+        </header>
+        <fieldset> <!--permite organizar en grupos los campos de un formulario. el elemento legend debe ser el-->
+			<!-- primer hijo de fieldset.-->
+         <legend align="left">Login</legend><!--Crea un título para un grupos los campos ( <fieldset> )-->
+            <p> <input type="text" name="Usuario" placeholder="Usuario"></p>    
+            <!-- <p>Permite ingresar parrafos o contener elementos -->                      
+            <p> <input type="text" name="Clave" placeholder="Clave"></p> 
+           
+            <input type="submit" value="Ingresar" id="Ingresar">
+            <!-- <input type="submit"> define un botón de envío que envía todos los valores de formulario a un controlador de formulario.-->                              
+             
+                       
+        </fieldset>
+        <div id="Diseños">
+            <strong>-- Modas Maia --</strong><!--Define un texto en negrita-->
+        </div>   
+    </div>
+    </body>
+    </html>
